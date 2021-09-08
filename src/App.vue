@@ -54,7 +54,7 @@ export default {
     getData() {
       axios.get(this.gsheet_url).then((response) => {
         this.entries = response.data.valueRanges[0].values;
-        console.log(response);
+        /* console.log(response); */
       });
     },
     //update the current date automatically
@@ -210,14 +210,18 @@ body {
     color: #ffbfab;
   }
 
+  .entry-item:last-of-type {
+    margin-bottom: 200px;
+  }
+
   footer {
     background: #ffffff;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-    /* position: fixed;
+    position: fixed;
     bottom: 0;
-    left: 0; */
+    left: 0;
     width: 100%;
     padding: 40px;
   }
@@ -282,18 +286,25 @@ body {
     color: #ffbfab;
   }
 
+  .entry-item:last-of-type {
+    margin-bottom: 300px;
+  }
+
   footer {
     background: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 40px;
-    position: static;
+    padding: 40px 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
+    box-sizing: border-box;
   }
 
   footer img {
-    width: 100%;
+    height: 50px;
     margin-bottom: 30px;
   }
 
