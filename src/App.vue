@@ -39,7 +39,7 @@ export default {
       title: "Welcome to Opportunity",
       currentDate: "",
       gsheet_url:
-        "https://sheets.googleapis.com/v4/spreadsheets/1qLZJwuNv3QmwGhSj1wZZbuXNOkDKN-Ha7fo0Ca_uVVU/values:batchGet?ranges=A1%3AE100&valueRenderOption=FORMATTED_VALUE&key=AIzaSyBesotaNgSaTUIhrSKjEaExdi-ksKInhoE",
+        "https://sheets.googleapis.com/v4/spreadsheets/1thnl4frHxR5kB5F-k6u-sxpRKzPwUnrZPNMJAANkulk/values:batchGet?ranges=A1%3AE100&valueRenderOption=FORMATTED_VALUE&key=AIzaSyCw24BYVeWoepBOsfQDdqdrxNOHsyFnqFk",
       entries: [],
     };
   },
