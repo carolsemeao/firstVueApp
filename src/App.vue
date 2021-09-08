@@ -247,7 +247,7 @@ body {
   .site-title {
     font-size: 50px;
     font-weight: 900;
-    margin: 80px 0 20px 0;
+    margin: 50px 0 20px 0;
     text-align: center;
   }
 
@@ -263,7 +263,7 @@ body {
   }
 
   .entry-item {
-    padding: 35px 40px;
+    padding: 35px 25px;
     margin: 40px 0;
     font-size: 24px;
     line-height: 1;
@@ -279,26 +279,20 @@ body {
     font-weight: 900;
     font-size: inherit;
     color: #ffbfab;
-    margin: 0;
+    margin: 20px 0 0 0;
   }
   .entry-description {
     font-weight: 500;
     color: #ffbfab;
   }
 
-  .entry-item:last-of-type {
-    margin-bottom: 300px;
-  }
-
   footer {
     background: #ffffff;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 40px 50px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    justify-content: space-between;
+    padding: 40px;
+    position: static;
     width: 100%;
     box-sizing: border-box;
   }
